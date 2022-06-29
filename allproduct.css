@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: inherit; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.orglogo {
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.logoimg {
+    height: 120px;
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    list-style: none;
+}
+
+#a1 {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    color: gray;
+}
+
+.main {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 250vh;
+    width: 150vh;
+    /* background-color: aqua; */
+    background-color: white;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontaint {
+    height: 220vh;
+    width: 140vh;
+    /* background-color: aquamarine; */
+}
+
+.head {
+    display: flex;
+}
+
+.shop {
+    height: 80px;
+    width: 100%;
+}
+
+.product {
+    height: 200vh;
+    width: 100%;
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.div {
+    height: 400px;
+    width: 310px;
+    /* border: 1px solid black; */
+}
+
+#a2 {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#ic2 {
+    color: #8bc34a;
+}
+
+.button {
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.btn1 {
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    border: 1px solid #8bc34a;
+    color: #8bc34a;
+}
+
+.btn1:hover {
+    background-color: #8bc34a;
+    color: black;
+}

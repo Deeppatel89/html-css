@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: inherit; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.orglogo {
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.logoimg {
+    height: 120px;
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    list-style: none;
+}
+
+#a1 {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    color: gray;
+}
+
+.about {
+    height: 200px;
+    width: 100%;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.h11 {
+    margin-bottom: auto;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactbox {
+    height: 380px;
+    width: 80%;
+    background-color: white;
+    margin-top: -50px;
+    box-shadow: 1px 1px 10px 0px rgb(205, 200, 200);
+}
+
+.leaf {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    /* background-color: aqua; */
+}
+
+.leafimg {
+    height: 60px;
+}
+
+.inner {
+    height: 350px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercontaint {
+    height: 150px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercontaint1 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ic1 {
+    font-size: 25px;
+    color: #8bc34a;
+    margin: 15px;
+}

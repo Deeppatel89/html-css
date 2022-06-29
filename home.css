@@ -1,0 +1,482 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: inherit; */
+            font-family: 'Open Sans', sans-serif;
+        }
+        /*         
+        .img {
+            width: 400px;
+            height: 500px;
+            background-image: url(./image/intro\ img.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .img:hover {
+            background-image: linear-gradient(#0007, #0007), url(./image/intro\ img.jpg);
+        } */
+        
+        header {
+            height: 150px;
+            width: 100%;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid gray;
+        }
+        
+        .orglogo {
+            height: 100px;
+            width: 100px;
+            margin-left: 150px;
+            align-items: center;
+        }
+        
+        .logoimg {
+            height: 120px;
+            width: 200px;
+        }
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 100px;
+            list-style: none;
+        }
+        
+        #a1 {
+            text-decoration: none;
+            font-size: 30px;
+            margin: 10px;
+            color: gray;
+        }
+        
+        .intro {
+            background-image: url(image/leaf1.jpg);
+            background-position: right bottom;
+            background-repeat: no-repeat;
+            background-size: 300px 300px;
+            z-index: -1;
+            /* background: linear-gradient(to right, #d9a7c7, #fffcdc); */
+        }
+        
+        .intro {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .introimg {
+            height: 80%;
+            width: 40%;
+            /* background-color: aqua; */
+            margin: 10px;
+        }
+        
+        .imgintro {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+        
+        .information {
+            height: 80%;
+            width: 40%;
+            /* background-color: aquamarine; */
+        }
+        
+        .leaf {
+            margin-top: 50px;
+            height: 50px;
+            width: 100px;
+            margin-left: 20px;
+        }
+        
+        .h31 {
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        
+        .h11 {
+            margin: 10px;
+            font-size: 70px;
+        }
+        
+        .p1 {
+            margin: 10px;
+            font-size: 20px;
+        }
+        
+        .btnshop {
+            height: 40px;
+            width: 150px;
+            margin: 10px;
+            border-radius: 30px;
+            background-color: #8bc34a;
+            border: none;
+            color: white;
+        }
+        
+        .middle {
+            height: 200px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .innermid {
+            height: 80px;
+            width: 280px;
+            background-color: rgb(44, 43, 43);
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+        
+        #ic1 {
+            font-size: 30px;
+            color: #8bc34a;
+        }
+        
+        .text {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            color: aliceblue;
+        }
+        
+        .mid {
+            font-size: 25px;
+            margin: 0;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        
+        b {
+            font-size: 20px;
+        }
+        
+        .sellingproducts {
+            height: 250px;
+            width: 100%;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .containt {
+            height: 200px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* background-color: aqua; */
+        }
+        
+        .h12 {
+            font-size: 40px;
+        }
+        
+        .sellingicon {
+            height: 90px;
+            width: 90px;
+        }
+        
+        .product {
+            height: 500px;
+            width: 100%;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .productimg {
+            margin: 10px;
+        }
+        
+        #a2 {
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        #ic2 {
+            color: #8bc34a;
+        }
+        
+        .veg {
+            height: 50px;
+            width: 100%;
+            /* background-color: gray; */
+            display: flex;
+            justify-content: center;
+        }
+        
+        .basil {
+            height: 80px;
+            margin-top: 10px;
+        }
+        
+        .vegproduct {
+            height: 650px;
+            width: 100%;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .fruits {
+            height: 400px;
+            width: 350px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .vegetables {
+            height: 400px;
+            width: 350px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .legume {
+            height: 400px;
+            width: 350px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .vegtext {
+            height: 50%;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .h33 {
+            font-size: 25px;
+            margin-right: 40px;
+        }
+        
+        .p3 {
+            font-size: 17px;
+            margin: 10px;
+        }
+        
+        .btn3 {
+            height: 40px;
+            width: 150px;
+            border-radius: 20px;
+            background-color: #8bc34a;
+            margin-right: 70px;
+            border: none;
+            color: white;
+        }
+        
+        .vegimg {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .vegeimage {
+            height: 90%;
+            width: 80%;
+            margin-left: 69px;
+            border-radius: 20px;
+        }
+        
+        .offer {
+            height: 200px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .inneroffer {
+            height: 150px;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .h14 {
+            color: white;
+            font-size: 50px;
+        }
+        
+        .btn4 {
+            height: 50px;
+            width: 200px;
+            background-color: #8bc34a;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+        
+        #icn3 {
+            font-size: 20px;
+            margin: 5px;
+        }
+        
+        .free {
+            height: 100px;
+            width: 100%;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .h35 {
+            margin-left: 150px;
+            font-size: 35px;
+        }
+        
+        .customer {
+            height: 600px;
+            width: 100%;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .Mila {
+            height: 350px;
+            width: 400px;
+            /* background-color: wheat; */
+            margin: 20px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 1px 1px 10px 0px rgb(205, 200, 200);
+        }
+        
+        .Deal {
+            height: 450px;
+            width: 400px;
+            background-color: antiquewhite;
+            margin-bottom: 100px;
+            border-radius: 5px;
+            background-image: url(image/capcicum.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .Deal:hover {
+            transition: 3s;
+            background-image: linear-gradient(#0005, #0005), url(image/capcicum.jpg);
+        }
+        
+        .text123 {
+            height: 70%;
+            width: 70%;
+        }
+        
+        .h15 {
+            color: aliceblue;
+            text-align: center;
+            margin: 20px;
+        }
+        
+        .btn5 {
+            height: 50px;
+            width: 200px;
+            background-color: #8bc34a;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            border: none;
+            margin-bottom: 30px;
+        }
+        
+        .star {
+            height: 40%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #ic3 {
+            color: gold;
+            font-size: 20px;
+        }
+        
+        .text1 {
+            height: 50%;
+            width: 60%;
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 30PX;
+        }
+        
+        .client {
+            height: 20%;
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .client1 {
+            margin: 20px;
+        }
